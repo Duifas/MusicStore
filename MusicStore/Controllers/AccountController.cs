@@ -13,7 +13,7 @@ using MusicStore.Models;
 namespace MusicStore.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : Controller //This is a test
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
